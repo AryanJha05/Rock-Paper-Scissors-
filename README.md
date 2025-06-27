@@ -34,5 +34,5 @@ A fully responsive and interactive **Rock, Paper, Scissors** game built using on
 ┗ 📜 README.md
 
 ---
-[👉 Play the Game](https://calc-1.bytexl.live/)
+[👉 Play the Game](https://rpsg-2.bytexl.live/)
 
