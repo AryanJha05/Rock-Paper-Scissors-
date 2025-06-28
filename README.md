@@ -1,38 +1,42 @@
-# Rock-Paper-Scissors-
-# 🎮 AJGaming - Rock Paper Scissors Game
+# 🎮 Rock Paper Scissors – AJGaming
 
-A fully responsive and interactive **Rock, Paper, Scissors** game built using only **HTML, CSS, and JavaScript**. Designed with a vibrant gaming aesthetic, including theme toggles, emoji-based UI, and animated effects.
+A modern, responsive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript. Play against the computer in 5 intense rounds with animated feedback, light/dark themes, and stylish pop-up notifications. Optimized for both desktop and mobile!
+
+---
+
+## 🚀 Features
+
+- 🖼️ Start screen with game instructions
+- ✨ Reflective pop-up notifications for Win / Lose / Draw
+- 🌓 Light & Dark mode toggle
+- 🔁 5-round game limit with final winner declared
+- 📱 Fully responsive and mobile-friendly design
+- 🔄 Reset button to play again
 
 ---
 
-## 🔥 Features
+## 🎮 Live Demo
 
-- 🧠 Play against the computer (randomized logic)
-- 🎨 Animated gradient **dark/light themes** with toggle
-- 🪨📄✂️ Emoji-enhanced UI for buttons and scoreboard
-- 💻 Fully responsive on all screen sizes
-- 🌈 Animated **gradient brand text** for gaming vibe
-- ⚡ Smooth interaction effects (hover, active states)
+🔗 [Play Now](https://nJha05a.github.io/rock-paper-scissors)
+
+> Replace the link with your actual GitHub Pages deployment if available.
 
 ---
+
+
+
 ## 🛠️ Tech Stack
 
-| Frontend  | Description         |
-|-----------|---------------------|
-| HTML5     | Markup structure    |
-| CSS3      | Styling + animations (gradient, transitions) |
-| JavaScript | Game logic, theme toggle, interaction |
+- HTML5
+- CSS3 (Glassmorphism, Gradients, Animations)
+- JavaScript (DOM manipulation, Game logic)
 
 ---
 
-## 📁 Project Structure
+## 📂 Folder Structure
 
-📦 RockPaperScissors/
-┣ 📜 index.html
-┣ 📜 style.css
-┣ 📜 script.js
-┗ 📜 README.md
-
----
-[👉 Play the Game](https://rpsg-2.bytexl.live/)
-
+📁 project-root/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
