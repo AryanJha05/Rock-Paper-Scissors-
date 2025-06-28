@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rock Paper Scissors</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Theme Toggle -->
   <div class="theme-toggle-wrapper">
     <button id="themeToggle" class="theme-toggle">🌙</button>
   </div>
-  <div class="wrapper">
-    
-    <h2 class="brand">🎮 AJGaming</h2>
-    
-    <div class="container">
-      <h1>🪨📄✂️ Rock Paper Scissors</h1>
 
-      <div class="choices">
-        <button onclick="playGame('rock')">🪨 Rock</button>
-        <button onclick="playGame('paper')">📄 Paper</button>
-        <button onclick="playGame('scissors')">✂️ Scissors</button>
+  <!-- Start Page -->
+  <div id="startPage" class="start-page">
+    <h1>🎮 Welcome to AJGaming</h1>
+    <p>Get ready to play Rock Paper Scissors against the computer.</p>
+    <ul>
+      <li>👉 You have 5 rounds to prove yourself.</li>
+      <li>👉 Each round, pick 🪨 Rock, 📄 Paper, or ✂️ Scissors.</li>
+      <li>👉 The computer will also choose randomly.</li>
+      <li>👉 The final winner will be declared after 5 rounds.</li>
+    </ul>
+    <button class="start-btn" onclick="startGame()">🚀 Start Game</button>
+  </div>
+
+  <!-- Game Page -->
+  <div id="gamePage" style="display: none;">
+    <div class="wrapper">
+      <h2 class="brand">🎮 AJGaming</h2>
+      <div class="container">
+        <h1>🪨📄✂️ Rock Paper Scissors</h1>
+        <div class="choices">
+          <button onclick="playGame('rock')">🪨 Rock</button>
+          <button onclick="playGame('paper')">📄 Paper</button>
+          <button onclick="playGame('scissors')">✂️ Scissors</button>
+        </div>
+        <div id="result" class="result">Choose your move! 🎯</div>
+        <div class="scoreboard">
+          <div>👤 You: <span id="playerScore">0</span></div>
+          <div>🤖 Computer: <span id="computerScore">0</span></div>
+        </div>
+        <button class="reset-btn" onclick="resetGame()">🔄 Reset</button>
       </div>
-
-      <div id="result" class="result">Choose your move! 🎯</div>
-
-      <div class="scoreboard">
-        <div>👤 You: <span id="playerScore">0</span></div>
-        <div>🤖 Computer: <span id="computerScore">0</span></div>
-      </div>
-
-      <button class="reset-btn" onclick="resetGame()">🔄 Reset</button>
     </div>
   </div>
+
+  <!-- Popup Notification -->
+  <div id="popup" class="popup">Result</div>
 
   <script src="script.js"></script>
 </body>
